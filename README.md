@@ -1,29 +1,39 @@
-# Hi, I'm Ali 👋
 
-### Data Analyst | Machine Learning Enthusiast | Python Developer
+# Bank Customer Churn Analysis
 
-I am passionate about turning raw data into meaningful insights and building practical Machine Learning solutions.
+This project focuses on analyzing bank customer data to identify patterns related to customer churn. The goal is to understand which factors may influence customers to leave the bank and provide insights that could help improve customer retention.
 
-## 🛠 Skills
+## Project Overview
+In this analysis, a dataset containing customer information such as age, balance, number of products, and activity status is explored to determine which features are most associated with churn behavior.
 
-- **Programming:** Python, SQL
-- **Data Analysis:** Pandas, NumPy, Statistics
-- **Visualization:** Matplotlib, Seaborn, Power BI
-- **Machine Learning:** Scikit-learn, Random Forest, XGBoost
-- **Deployment:** Streamlit
+## Tools and Technologies
+- **Programming Language:** Python
+- **Data Analysis Libraries:** Pandas, NumPy
+- **Data Visualization:** Matplotlib, Seaborn
+- **Development Environment:** Google Colab
 
-## 📌 Current Focus
+## Project Steps
+1. **Data Cleaning**
+   - Removed unnecessary columns such as `RowNumber` and `CustomerId`
+   - Checked for missing values and duplicate records
 
-- Building end-to-end Data Analysis and Machine Learning projects
-- Improving feature engineering and model evaluation skills
-- Creating a strong data portfolio
-- Participating in Kaggle competitions
+2. **Exploratory Data Analysis (EDA)**
+   - Examined the distribution of important variables
+   - Compared average balance and estimated salary across churn groups
 
-## 📫 Find Me
+3. **Data Visualization**
+   - Created a pie chart to show the overall churn distribution
+   - Created a bar chart to compare average customer balance
 
-- GitHub: [@Ali13ffff](https://github.com/Ali13ffff)
+## Key Insights
+- Customers with different account balances may show different churn behavior
+- Visual analysis helps identify trends that can be explored further using machine learning
 
----
+## Future Work
+- Perform preprocessing for machine learning, including encoding and scaling
+- Train classification models such as Random Forest and XGBoost
+- Evaluate model performance using metrics like Accuracy, Precision, Recall, and F1-score
 
-⭐ Feel free to explore my repositories and connect with me!
-
+## Author
+Ali  
+Aspiring Data Analyst and Machine Learning Enthusiast
